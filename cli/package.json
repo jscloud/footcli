@@ -1,0 +1,33 @@
+{
+  "name": "olxcli",
+  "version": "0.0.1",
+  "description": "Olx Football - Terminal CLI",
+  "keywords": [
+    "olx",
+    "olxfootball",
+    "football",
+    "football-cli"
+  ],
+  "main": "index.js",
+  "bin": {
+    "olxcli": "./index.js"
+  },
+  "dependencies": {
+    "commander": "2.6.0",
+    "cli-table": "0.3.1"
+  },
+  "bugs": {
+    "url": "http://github.com/juansanzone",
+    "email" : "juan.sanzone@gmail.com"
+  },
+  "author": {
+    "name": "Juan Sanzone",
+    "email": "juan.sanzone@gmail.com",
+    "url": "http://github.com/juansanzone"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
