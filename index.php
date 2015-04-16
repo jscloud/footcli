@@ -2,9 +2,13 @@
 
 try {
 
-	$target = 'data/table.json';
-	if (isset($_GET['goals']))
+	if (isset($_GET['goals'])) {
 		$target = 'data/goals.json';
+	} elseif (isset($_GET['next'])) {
+		$target = 'data/fixture.json';
+	} else {
+		$target = 'data/table.json';
+	}
 
 	$handle = fopen($target, "r");
 	$contents = fread($handle, filesize($target));
