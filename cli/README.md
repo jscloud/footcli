@@ -22,6 +22,12 @@ Check OLX Football Tournament Stats from your Console !
 > olxcli --goals
 ```
 
+### Show Next Match
+
+```
+> olxcli --next
+```
+
 ### Update Remote Database
 This method will get the latest results from Tournament WebSite and update the remote Database with recent values. Any client can run this command after each match in order to update the remote database and replicate the last changes of each client instantly.
 
